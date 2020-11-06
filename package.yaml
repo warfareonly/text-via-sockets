@@ -37,7 +37,7 @@ library:
 
 ghc-options:
   - -O
-  - -Werror
+    #  - -Werror
   - -Wall
 
 default-extensions:
@@ -62,7 +62,7 @@ tests:
     - -threaded
     - -rtsopts
     - -with-rtsopts=-N
-    - -Werror
+      #- -Werror
     - -Wall
     - -O
     dependencies:
